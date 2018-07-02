@@ -1,0 +1,21 @@
+.Section {
+  color: black;
+  background-color: #e5e5d8;
+}
+
+.section-content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+hr {
+  border-color: #666666;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
