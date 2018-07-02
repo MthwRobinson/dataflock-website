@@ -1,6 +1,7 @@
 .Section {
   color: black;
   background-color: #e5e5d8;
+  border-color: black;
 }
 
 .section-content {
@@ -9,7 +10,7 @@
 }
 
 hr {
-  border-color: #666666;
+  border-color: black;
 }
 
 p {
