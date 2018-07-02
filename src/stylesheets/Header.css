@@ -2,6 +2,13 @@
 
 }
 
+.menu-button {
+  color: #666666;
+  padding-top: 7px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .navbar-nav li a {
   line-height: 32px;
   font-size: 20px;
@@ -10,7 +17,6 @@
 
 .navbar-default{
   /* Sets the header background */
-  /*background-color: #D6821C */
   background-color: #7aba7a;
 }
 .navbar-default .navbar-brand {

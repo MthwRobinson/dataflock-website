@@ -3,7 +3,6 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 import './../stylesheets/Header.css';
 
-
 class Header extends Component {
   render() {
     return (
@@ -18,6 +17,9 @@ class Header extends Component {
                 />
             </Navbar.Form>
           </Navbar.Header>
+          <Navbar.Form>
+            <i className="fa fa-bars menu-button pull-right"></i>
+          </Navbar.Form>
         </Navbar>
       </div>
     );
