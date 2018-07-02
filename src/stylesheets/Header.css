@@ -3,10 +3,10 @@
 }
 
 .menu-button {
-  color: #666666;
   padding-top: 7px;
   font-size: 30px;
   cursor: pointer;
+  color: #666666;
 }
 
 .navbar-nav li a {
