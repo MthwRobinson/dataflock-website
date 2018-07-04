@@ -3,6 +3,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 import './../stylesheets/Header.css';
 
+//<i className="fa fa-bars menu-button pull-right"></i>
 class Header extends Component {
   render() {
     return (
@@ -10,7 +11,6 @@ class Header extends Component {
         <Navbar fluid>
           <Navbar.Header>
             <Navbar.Form>
-                <i className="fa fa-bars menu-button pull-right"></i>
                 <img 
                   src='/dataflock-logo.png'
                   alt='DataFlock'
