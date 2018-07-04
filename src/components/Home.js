@@ -7,16 +7,21 @@ const sectionData = require('./../content/home.json');
 
 class Home extends Component {
   render() {
+    let sections = null;
+    if(sectionData.length>0){
+      sections = (
+        <div>
+          {sectionData.map((section, index) => {
+            return <Section title={section.title} content={section.content} />
+          })}
+        </div>
+        
+      )
+    }
+
     return (
       <div className="Home">
-        <Section 
-          title={sectionData[0].title}
-          content={sectionData[0].content}
-        />
-        <Section 
-          title={sectionData[0].title}
-          content={sectionData[0].content}
-        />
+        {sections}
       </div>
     );
   }
