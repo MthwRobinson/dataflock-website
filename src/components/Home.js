@@ -8,6 +8,7 @@ class Home extends Component {
     return (
       <div className="Home">
         <Section />
+        <Section />
       </div>
     );
   }

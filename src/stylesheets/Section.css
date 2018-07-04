@@ -2,6 +2,11 @@
   background-color: #666666;
 }
 
+.section-boundary: {
+  height: 20px;
+  background-color: #666666;
+}
+
 .section-row {
   padding-top: 0px;
   background-color: #666666;
