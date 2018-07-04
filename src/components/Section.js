@@ -8,7 +8,7 @@ class Section extends Component {
     return (
       <div className="Section">
           <Col xs={12} sm={12} md={3} lg={3} className='section-title'>
-            <b>join the flock</b>
+            <b>{this.props.title}</b>
             <hr/>
             <img
               src='/dataflock-duck.png'
@@ -28,7 +28,7 @@ class Section extends Component {
           </Col>
           
           <Col xs={12} sm={12} md={9} lg={9} className='section-content'>
-            <b><p>Have a lot of data? Not sure to do with it? The flock is here to help! Dataflock offers a variety of services, ranging from data consulting to enterprise application development. We take care of the boring stuff so that you can do what you do best.</p></b>
+            <b><p>{this.props.content}</p></b>
           </Col>
       </div>
     );
