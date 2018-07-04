@@ -3,11 +3,6 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 import './../stylesheets/Header.css';
 
-//<Nav pullRight>
-//            <NavItem>
-//              <i className="fa fa-bars menu-button pull-right"></i>
-//            </NavItem>
-//          </Nav>
 class Header extends Component {
   render() {
     return (

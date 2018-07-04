@@ -1,18 +1,30 @@
 .Section {
-  color: black;
-  background-color: #e5e5d8;
-  border-color: black;
+  background-color: #666666;
+  padding-top: 0px;
+}
+
+.section-row {
+  padding-top: 0px;
+  background-color: #666666;
 }
 
 .section-content {
-  padding-left: 10%;
-  padding-right: 10%;
+  color: black;
+  background-color: #e5e5d8;
+  border-color: black;
+  height: 50vh;
+  font-size: 20px;
+}
+
+.section-title {
+  color: #e5e5d8;
+  border-color: #e5e5d8;
+  font-size: 42px;
+  background-color: #b76eb8;
+  height: 50vh;
+  text-align: right;
 }
 
 hr {
-  border-color: black;
-}
-
-p {
-  font-size: 20px;
+  border-color: #e5e5d8;
 }

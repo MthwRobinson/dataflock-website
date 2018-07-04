@@ -22,7 +22,9 @@
 .navbar-default{
   /* Sets the header background */
   background-color: #7aba7a;
+  border-color: #7aba7a;
 }
+
 .navbar-default .navbar-brand {
   /* Set the color for the brand section */
   color: white; 
@@ -51,4 +53,3 @@
   color: #030033;
   cursor: pointer;
 }
-
