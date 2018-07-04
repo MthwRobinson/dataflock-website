@@ -13,17 +13,17 @@ class Section extends Component {
             <img
               src='/dataflock-duck.png'
               alt='Dataflock Duck'
-              height='90px'
+              height='60px'
             />
             <img
               src='/dataflock-duck.png'
               alt='Dataflock Duck'
-              height='90px'
+              height='60px'
             />
             <img
               src='/dataflock-duck.png'
               alt='Dataflock Duck'
-              height='90px'
+              height='60px'
             />
           </Col>
           

@@ -12,17 +12,17 @@
   color: #333333;
   background-color: #e5e5d8;
   border-color: #333333;
-  font-size: 18px;
-  min-height: 210px;
+  font-size: 14px;
+  min-height: 180px;
 }
 
 .section-title {
   color: #e5e5d8;
   border-color: #e5e5d8;
-  font-size: 38px;
+  font-size: 32px;
   background-color: #b76eb8;
   text-align: right;
-  height: 210px;
+  height: 180px;
 }
 
 hr {
