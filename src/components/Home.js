@@ -15,7 +15,6 @@ class Home extends Component {
             return <Section title={section.title} content={section.content} />
           })}
         </div>
-        
       )
     }
 

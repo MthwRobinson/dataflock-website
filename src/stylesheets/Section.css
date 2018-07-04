@@ -9,17 +9,17 @@
 
 .section-content {
   padding: 20px 20px 0px 20px;
-  color: black;
+  color: #333333;
   background-color: #e5e5d8;
-  border-color: black;
-  font-size: 20px;
+  border-color: #333333;
+  font-size: 18px;
   min-height: 210px;
 }
 
 .section-title {
   color: #e5e5d8;
   border-color: #e5e5d8;
-  font-size: 42px;
+  font-size: 38px;
   background-color: #b76eb8;
   text-align: right;
   height: 210px;
