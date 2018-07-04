@@ -1,6 +1,5 @@
 .Section {
   background-color: #666666;
-  padding-top: 0px;
 }
 
 .section-row {
@@ -12,8 +11,8 @@
   color: black;
   background-color: #e5e5d8;
   border-color: black;
-  height: 50vh;
   font-size: 20px;
+  min-height: 210px;
 }
 
 .section-title {
@@ -21,8 +20,8 @@
   border-color: #e5e5d8;
   font-size: 42px;
   background-color: #b76eb8;
-  height: 50vh;
   text-align: right;
+  height: 210px;
 }
 
 hr {
