@@ -17,9 +17,6 @@ class Header extends Component {
                   height='50px'
                   className='duck-logo img-hor-vert'
                 />
-              <Button className='email-button'>
-                <a href="mailto:matt@dataflock.io">Email Us</a>
-              </Button>
             </Navbar.Form>
           </Navbar.Header>
         </Navbar>
