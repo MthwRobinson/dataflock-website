@@ -3,28 +3,24 @@ import { Col, Row } from 'react-bootstrap';
 
 import './../stylesheets/Section.css';
 
-class TechSection extends Component { 
+class ModelingSection extends Component { 
   render() {
     return (
-      <div className="TechSection">
+      <div className="ModelingSection">
         <Col xs={12} sm={12} md={3} lg={3} className='section-title'>
-            <b>tech skills</b>
+            <b>modeling skills</b>
             <hr/>
           </Col>
           <Col xs={12} sm={12} md={9} lg={9} className='section-content'>
             <Row className='section-row'>
-              <p><b>Programming Languages:</b> Python, Node.js/JavaScript</p>
+              <p><b>Machine Learning:</b> Classification, Clustering, Natural Language Processing</p>
             </Row>
             <Row className='section-row'>
-              <p><b>Databases:</b> Postgres, MySQL, Hive, Redis, neo4j</p>
+              <p><b>Operations Research:</b> Optimization, Discrete Event Simulation, Stochastic Processes</p>
             </Row>
             <Row className='section-row'>
-              <p><b>Frameworks:</b> React, Angular, Flask, Express.js</p>
+              <p><b>Statistics:</b> Regression, Generalized Linear Models, Bayesian Models </p>
             </Row>
-            <Row className='section-row'>
-              <p><b>Cloud:</b> Amazon Web Services, Microsoft Azure</p>
-            </Row>
-
           </Col>
           <Col xs={12} sm={12} md={12} lg={12} className='section-border'>
           </Col>
@@ -33,4 +29,4 @@ class TechSection extends Component {
   }
 }
 
-export default TechSection;
+export default ModelingSection;

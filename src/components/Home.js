@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import ModelingSection from './ModelingSection';
 import Section from './Section';
 import TechSection from './TechSection';
 import './../stylesheets/Home.css';
@@ -20,6 +21,7 @@ class Home extends Component {
                   />)
           })}
           <TechSection />
+          <ModelingSection />
         </div>
       )
     }
