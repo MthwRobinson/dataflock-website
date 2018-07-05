@@ -2,6 +2,10 @@
   background-color: #666666;
 }
 
+.section-border {
+  max-height: 5px;
+}
+
 .section-row {
   padding-top: 0px;
   background-color: #666666;
@@ -16,11 +20,15 @@
   min-height: 180px;
 }
 
+.section-content > img {
+  animation: spin 4s linear infinite;
+}
+
 .section-title {
   color: #e5e5d8;
   border-color: #e5e5d8;
   font-size: 32px;
-  background-color: #b76eb8;
+  background-color: #666666;
   text-align: right;
   height: 180px;
 }

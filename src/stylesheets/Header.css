@@ -2,11 +2,25 @@
 
 }
 
-.menu-button {
+.duck-logo {
+  padding-right: 10px;
+}
+
+.email-button {
   padding-top: 7px;
-  font-size: 30px;
+  /* font-size: 30px; */
   cursor: pointer;
-  color: black;
+  color: #333333;
+  background-color: #e5e5d8;
+}
+
+.email-button > a {
+  color: #333333;
+  background-color: #e5e5d8;
+}
+
+.navbar {
+  margin-bottom: 5px;
 }
 
 .navbar-nav li a {
@@ -21,8 +35,8 @@
 
 .navbar-default{
   /* Sets the header background */
-  background-color: #7aba7a;
-  border-color: #7aba7a;
+  background-color: #333333;
+  border-color: #333333;
 }
 
 .navbar-default .navbar-brand {

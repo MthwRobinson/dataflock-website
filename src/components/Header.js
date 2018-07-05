@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Button, Navbar, Nav, NavItem } from 'react-bootstrap';
 
 import './../stylesheets/Header.css';
 
@@ -15,10 +15,15 @@ class Header extends Component {
                   src='/dataflock-logo.png'
                   alt='DataFlock'
                   height='50px'
+                  className='duck-logo'
                 />
+              <Button className='email-button'>
+                <a href="mailto:matt@dataflock.io">Email Us</a>
+              </Button>
             </Navbar.Form>
           </Navbar.Header>
         </Navbar>
+
       </div>
     );
   }

@@ -12,7 +12,11 @@ class Home extends Component {
       sections = (
         <div>
           {sectionData.map((section, index) => {
-            return <Section title={section.title} content={section.content} />
+            return (<Section 
+                      title={section.title} 
+                      content={section.content} 
+                      background={section.background}
+                  />)
           })}
         </div>
       )
