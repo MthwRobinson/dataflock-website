@@ -4,11 +4,11 @@
     "content": "DataFlock provides independent data consulting services to small and medium sized organizations. If your organization generates a large volume of data, but isn't big enough to support an internal data science team, DataFlock is for you! Services range from consultation on data lifecycle management to the development of custom web applications."
   },
   {
-    "title": "meet our flock",
-    "content": "DataFlock's consulting services are provided by Matt Robinson. Matt is a data scientist and military veteran with nearly a decade of experience in operations management and software development. He recently served as the technical lead for a volunteer project to build an application that optimizes work schedules for social workers. This application is currently being used by a community care non-profit to improve outcomes for foster children."
-  },
-  {
     "title": "our approach",
     "content": "DataFlock helps you leverage technology to make your business process operate smoothly and efficiently. Outdated systems cause you to spend to much time managing data and looking for the information you need to make informed decisions. Let technology take care of that so that you can get back to doing what you do best: being an expert in your field!"
+  },
+  {
+    "title": "meet our flock",
+    "content": "DataFlock's consulting services are provided by Matt Robinson. Matt is a data scientist and military veteran with nearly a decade of experience in operations management and software development. He recently served as the technical lead for a volunteer project to build an application that optimizes work schedules for social workers. This application is currently being used by a community care non-profit to improve outcomes for foster children."
   }
 ]

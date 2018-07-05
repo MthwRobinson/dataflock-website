@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Section from './Section';
+import TechSection from './TechSection';
 import './../stylesheets/Home.css';
 
 const sectionData = require('./../content/home.json');
@@ -18,6 +19,7 @@ class Home extends Component {
                       background={section.background}
                   />)
           })}
+          <TechSection />
         </div>
       )
     }
