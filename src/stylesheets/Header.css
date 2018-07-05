@@ -6,6 +6,10 @@
   padding-right: 10px;
 }
 
+.img-hor {
+  transform: rotateY(180deg);
+}
+
 .email-button {
   padding-top: 7px;
   /* font-size: 30px; */
